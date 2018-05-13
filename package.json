@@ -1,0 +1,41 @@
+{
+  "name": "stockish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "loadash": "^1.0.0",
+    "morgan": "^1.9.0",
+    "recharts": "^1.0.0-beta.10",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "webpack": "^4.6.0"
+  },
+  "scripts": {
+    "start": "node server/stockishServer.js",
+    "dev": "webpack-dev-server --port 5667"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijay-karajgikar/stockish.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vijay-karajgikar/stockish/issues"
+  },
+  "homepage": "https://github.com/vijay-karajgikar/stockish#readme"
+}
